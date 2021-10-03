@@ -1,10 +1,10 @@
 "NIGHT SKY"
-
+---------------------------------------------------------------------------
 How it was built:
 17 curves (Bézier curves) 
 3 elements per curve
 17 x 3 = 51 total characters
-
+---------------------------------------------------------------------------
 Elements:
 Ordering 
 External Circle radius minus Internal Circle radius to provide ordering.
@@ -12,22 +12,21 @@ Dot
 Dot that connects to the ‘Ordering’ element
 Tangent Point
 Using the Bézier Curve Algorithm, a tangent point has been constructed per curve.
-
+---------------------------------------------------------------------------
 Two invisible ASCII grids (Red and Blue)
 Each curve:
 ‘Ordering’ and ‘Dot’ are always on the same grid.
 ‘Tangent Point’ is always on the opposite grid.
 Example: -      If ‘Ordering’ and ‘Dot’ are represented on the Blue grid. ‘Tangent Point’ is represented on the Red grid.
 -      If ‘Ordering’ and ‘Dot’ are represented on the Red grid. ‘Tangent Point’ is represented on the Blue grid.
-
+---------------------------------------------------------------------------
 Element ordering:
-
 Ordering
 Tangent Point
 Dot
-The Build:
+---------------------------------------------------------------------------
 Application used:
 GeoGebra 5
-
+---------------------------------------------------------------------------
 
 
